@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+</head>
+
+<body>
+   
+     <div class="navv">
+        <div class="logoo"><a href="#"> <img src="assets/banklogo.png"  height="100px" width="190px" ></a></div>
+        <ul class="navv justify-content-end">
+            <li class="navv-item">
+              <a class="navv-link active" [routerLink]="['']">Home</a>
+            </li>
+            <li class="navv-item">
+              <a class="navv-link" [routerLink]="['/about']" >About</a>
+            </li>
+            <li class="navv-item">
+              <a class="navv-link" [routerLink]="['/contact']">Contact</a>
+            </li>
+            <li class="navv-item">
+              <a class="navv-link" [routerLink]="['/loan']"> Loan</a>
+            </li>
+            <li *ngIf="!getstatus; else elseBlock"  [routerLink]="['/login']"><a class="navv-item">Login</a></li>
+            <ng-template #elseBlock >
+              <a class="navv-item" (click)="logout()">Logout</a>
+            </ng-template>
+            <li *ngIf="getstatus;"  [routerLink]="['/userdetails']">
+              <a class="navv-item">{{get()}}</a>
+            </li>
+            
+          </ul>
+          
+        </div>
+         
+    
+    
+    
+    
+</body>
+</html>
+
+
+
+

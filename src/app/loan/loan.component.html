@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <section class="text-center">
+        <h4 class="mb-5"><strong>Loans</strong></h4>
+        <div class="bg">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="rgba">
+                <img src="assets/car.jpeg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title">Car Loan</h2>
+                <p class="card-text">
+                  Dreaming of owning a car? The Bankis Car Loan aims to ensures that you drive around the city in your own vehicle! Avail a car loan, or opt for a pre-approved car loan, and get the best interest rates.
+                </p>
+                <a href="#car" class="btn btn-primary">Apply for Car Loan</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/home.jpeg" class="img-fluid" />
+                <a href="#home">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Home Loan</h5>
+                <p class="card-text">
+                  Bankis offers affordable and flexible housing loans that can turn your dream of owning a home into reality.
+
+We have products to suit every budget, taste and need. Whether you are self-employed or salaried, want a floating or fixed rate,
+ Bankis will offer a loan that is just right for you.
+
+                </p>
+                <a href="#personal" class="btn btn-primary">Apply for Home Loan</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="assets/personal.jpeg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Personal Loan</h5>
+                <p class="card-text">
+                  Bankis Personal Loans offer fast processing of your loan. Personal Loans can be used for plenty of purposes! 
+                  They can be availed when you are planning a vacation, renovating your home or arranging a dream wedding for yourself or 
+                  <!-- somebody special in the family. -->
+ <!-- Now you need not postpone things on your bucket list!  -->
+ <!-- You can get a Personal Loan from Rs. 50,000 upto Rs. 15,00,000 with minimal  -->
+ <!-- documentation and speedy approval from Axis Bank. -->
+  <!-- Also, you can transfer your existing high interest Personal Loan to Axis Bank as well.  -->
+  <!-- With a quick approval on Personal Loans, turn your dreams into reality! -->
+                </p>
+                <a href="#Personal" class="btn btn-primary">Apply for  Personal Loan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+     
+   <!-- <div class="l">
+      <div id="car">
+        <h2> Let's calculate your Car loan interest</h2>
+            <table>
+                <tr>
+                    <td>
+                        Enter Amount
+                    </td>
+                    <input type="text" name="amount" #n1>
+                </tr>
+                <tr>
+                    <td>
+                        Enter Time
+                    </td>
+                    <input type="text" name="time" placeholder="please enter in months" #n2>
+                </tr>
+                <tr>
+                    <td>
+                       Rate
+                    </td>
+                    <input type="button" value="7">
+                </tr>
+                <tr>
+                    <input type="button"  id="button" value="calculate" (click)="car(n1.value,n2.value)">
+                </tr>
+                <tr>
+                    
+                    <p>Amount   {{val | currency:'INR'}}</p> 
+                    <p>Amount   {{val}}</p>
+                </tr>
+            </table>
+    </div>
+    <br>
+    <br>
+    <hr>
+    
+    <br>
+    <br>
+    <hr>
+    <div id="Personal">
+        <h2> Let's calculate your Personal loan interest</h2>
+            <table>
+                <tr>
+                    <td>
+                        Enter Amount
+                    </td>
+                    <input type="text" name="amount" #b1>
+                </tr>
+                <tr>
+                    <td>
+                        Enter Time
+                    </td>
+                     <input type="text" name="time" placeholder="please enter in months" #b2> 
+                </tr>
+                <tr>
+                    <td>
+                       Rate
+                    </td>
+                    <input type="button" value="4">
+                </tr>
+                <tr>
+                     <input type="button" id="button" value="calculate" (click)="Personal(b1.value,b2.value)"> 
+                </tr>
+                <tr>
+                   <p>Amount   {{value}}</p> 
+                </tr>
+            </table>
+    </div>
+    <br>  -->
+<!-- </div>  -->
+<br> <br> <br>
+
+
+
+<div>
+  <div class="wrapper">
+  <div class="background-container">
+  <div class="bg-1"></div>
+  <div class="bg-2"></div>
+</div>
+<div class="about-container">
+
+<div class="image-container">
+  <img src="assets/car3.jpeg" />
+
+</div>
+
+<div class="text-container">
+<h2> <marquee>Car Loan Calculator</marquee></h2>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="false">Sign up</label>
+          <!-- <h3 > Loan Calculator</h3> -->
+             
+          <input type="text" name="amount" placeholder="Enter the Amount" required="" #n1>
+					<!-- <input type="text" name="txt" placeholder="User name" required=""> -->
+          <input type="text" name="time" placeholder="Enter tenure in months" required="" #n2> 
+          <input type="button"  id="button1" value="Rate of Interest at 6% p.a" >
+          <input type="button"  id="button" value="Calculate" (click)="car(n1.value,n2.value)">
+
+          <h3 >EMI will be  ₹{{val}}</h3>
+				</form>
+			</div>
+	</div>
+
+</div>
+
+</div>
+</div>
+</div>
+<!-- Home Loan -->
+
+<div>
+  <div class="wrapper">
+  <div class="background-container">
+  <div class="bg-1"></div>
+  <div class="bg-2"></div>
+</div>
+<div class="about-container">
+
+<div class="image-container">
+  <img src="assets/home2.jpeg" />
+
+</div>
+
+<div class="text-container">
+<h2> <marquee>Home Loan Calculator</marquee></h2>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="false">Sign up</label>
+          <!-- <h3 > Loan Calculator</h3> -->
+             
+          <input type="text" name="amount" placeholder="Enter the Amount" required="" #b>
+					<!-- <input type="text" name="txt" placeholder="User name" required=""> -->
+          <input type="text" name="time" placeholder="Enter tenure in years" required="" #b2> 
+          <input type="button"  id="button1" value="Rate of Interest at 5% p.a" >
+          <input type="button"  id="button" value="Calculate" (click)="home(b.value,b2.value)">
+          <!-- <input type="button"  id="button" value="Calculate" > -->
+          <!-- (click)="car(n1.value,n2.value)"> -->
+         
+          <h3 >EMI will be  ₹{{va}}</h3>
+				</form>
+			</div>
+	</div>
+
+</div>
+
+</div>
+</div>
+</div>
+<!-- Personal Loan -->
+
+<div>
+  <div class="wrapper">
+  <div class="background-container">
+  <div class="bg-1"></div>
+  <div class="bg-2"></div>
+</div>
+<div class="about-container">
+
+<div class="image-container">
+  <img src="assets/personal.jpeg" />
+
+</div>
+
+<div class="text-container">
+<h2> <marquee>Personal Loan Calculator</marquee></h2>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="false">Sign up</label>
+          <!-- <h3 > Loan Calculator</h3> -->
+             
+          <input type="text" name="amount" placeholder="Enter the Amount" required="" #a1>
+					<!-- <input type="text" name="txt" placeholder="User name" required=""> -->
+          <input type="text" name="time" placeholder="Enter tenure in years" required="" #a2> 
+          <input type="button"  id="button1" value="Rate of Interest at 5% p.a" >
+         
+          <input type="button"  id="button" value="Calculate" (click)="Personal(a1.value,a2.value)">
+          
+          <h3 >EMI will be  ₹{{value}}</h3>
+				</form>
+			</div>
+	</div>
+
+</div>
+
+</div>
+</div>
+</div>
+        
+<!-- <app-footer></app-footer> -->
+</body>
+</html>
